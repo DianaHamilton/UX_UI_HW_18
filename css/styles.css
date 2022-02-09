@@ -335,6 +335,11 @@ color: #000000;
   }
   
   .first {
+    display: block;
+    margin: 0 auto;
+    /* display: flex;
+   flex-direction: column;
+   justify-content: center; */
     grid-area: first;
    
   }
@@ -356,8 +361,10 @@ color: #000000;
   text-align: left;
   }
   
- .clientimg{
-  position: center;
+ .clientimg img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
  } 
 
 
